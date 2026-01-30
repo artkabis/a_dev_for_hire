@@ -57,19 +57,19 @@ const developer = {
 
 ```
 ╔═══════════════════════════════════════════════════════════════════════════════════╗
-║                              ⚔️  CHARACTER SHEET  ⚔️                               ║
+║                              ⚔️  CHARACTER SHEET  ⚔️                                ║
 ╠═══════════════════════════════════════════════════════════════════════════════════╣
 ║                                                                                   ║
-║   Name: Gregory Nicolle              Class: Full-Stack Wizard 🧙‍♂️                  ║
+║   Name: Gregory Nicolle              Class: Full-Stack Wizard 🧙                  ║
 ║   Level: Senior                      Guild: Arctic Code Vault                     ║
-║   Title: Pull Shark x2 🦈            Achievement: Quickdraw ⚡                     ║
+║   Title: Pull Shark x2 🦈             Achievement: Quickdraw ⚡                    ║
 ║                                                                                   ║
 ╠═══════════════════════════════════════════════════════════════════════════════════╣
 ║                                    BASE STATS                                     ║
 ╠═══════════════════════════════════════════════════════════════════════════════════╣
 ║                                                                                   ║
 ║   🎯 FRONTEND        ████████████████████░░░░  85/100   "UI Enchanter"            ║
-║   ⚙️  BACKEND         ████████████████████░░░░  90/100   "API Architect"           ║
+║   ⚙️ BACKEND          ████████████████████░░░░  90/100   "API Architect"           ║
 ║   🔒 SECURITY        ████████████████████░░░░  88/100   "Crypto Guardian"         ║
 ║   🤖 AI/ML           ████████████████░░░░░░░░  70/100   "Neural Tamer"            ║
 ║   🎮 CREATIVE        ████████████████████░░░░  80/100   "Pixel Mage"              ║
@@ -84,7 +84,7 @@ const developer = {
 ║   [PASSIVE] Debug Vision         → Can spot bugs before they manifest             ║
 ║   [ACTIVE]  Architecture Storm   → Design systems that scale to millions          ║
 ║   [ACTIVE]  Security Shield      → Immune to OWASP Top 10 vulnerabilities         ║
-║   [ULTIMATE] Full-Stack Fusion   → Frontend + Backend = Unstoppable              ║
+║   [ULTIMATE] Full-Stack Fusion   → Frontend + Backend = Unstoppable               ║
 ║                                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════════════════════╝
 ```
@@ -101,7 +101,7 @@ const developer = {
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐
-│                           ⚔️  WEAPONS (Languages)  ⚔️                            │
+│                            ⚔️ WEAPONS (Languages) ⚔️                             │
 ├─────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                 │
 │   ████████████████████████████████████████  JavaScript    ★★★★★  LEGENDARY     │
@@ -115,14 +115,14 @@ const developer = {
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐
-│                           🛡️  ARMOR (Frameworks)  🛡️                            │
+│                            🛡️ ARMOR (Frameworks) 🛡️                              │
 ├─────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                 │
-│   [LEGENDARY]  React.js       → +100% Component Power      ⚛️                    │
+│   [LEGENDARY]  React.js       → +100% Component Power      ⚛️                   │
 │   [LEGENDARY]  Node.js        → +100% Server Strength      💚                   │
 │   [EPIC]       Vue.js         → +80% Reactivity            🟢                   │
 │   [EPIC]       Next.js        → +90% SSR Magic             ▲                    │
-│   [EPIC]       Angular        → +85% Enterprise Power      🅰️                    │
+│   [EPIC]       Angular        → +85% Enterprise Power      🅰️                   │
 │   [RARE]       Three.js       → +70% 3D Vision             🎮                   │
 │   [EPIC]       Express        → +85% API Speed             🚂                   │
 │   [EPIC]       Tailwind       → +90% Style Points          🎨                   │
@@ -132,7 +132,7 @@ const developer = {
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐
-│                         💎  ARTIFACTS (Tools & DBs)  💎                          │
+│                          💎 ARTIFACTS (Tools & DBs) 💎                          │
 ├─────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                 │
 │   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐       │
@@ -169,7 +169,7 @@ const developer = {
 ║   🦈 PULL SHARK x2                                                    [UNLOCKED] ║
 ║   ┗━━ Merged so many PRs that GitHub gave you a shark. Twice.                    ║
 ║                                                                                   ║
-║   ⚡ QUICKDRAW                                                        [UNLOCKED] ║
+║   ⚡ QUICKDRAW                                                         [UNLOCKED] ║
 ║   ┗━━ First to respond, first to fix. Speed is your middle name.                 ║
 ║                                                                                   ║
 ║   📚 REPOSITORY HOARDER (84+)                                         [UNLOCKED] ║
@@ -494,12 +494,12 @@ const developer = {
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐
-│                          🎯 BATTLE STRATEGIES 🎯                                │
+│                           🎯 BATTLE STRATEGIES 🎯                               │
 ├─────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                 │
 │   ┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐     │
 │   │    AGILE    │    │     TDD     │    │    SOLID    │    │    CI/CD    │     │
-│   │   🏃‍♂️ 🏃‍♀️    │    │    🧪 ✅    │    │   📐 🎯    │    │   🚀 ♻️     │     │
+│   │    🏃 🏃    │    │    🧪 ✅    │    │   📐 🎯    │    │   🚀 ♻️     │     │
 │   │             │    │             │    │             │    │             │     │
 │   │  Sprints    │───▶│  Test First │───▶│  Clean      │───▶│  Deploy     │     │
 │   │  Standups   │    │  Red-Green  │    │  Design     │    │  Always     │     │
