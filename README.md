@@ -57,34 +57,34 @@ const developer = {
 
 ```
 ╔═══════════════════════════════════════════════════════════════════════════════════╗
-║                              ⚔️  CHARACTER SHEET  ⚔️                                ║
+║                                 CHARACTER SHEET                                   ║
 ╠═══════════════════════════════════════════════════════════════════════════════════╣
 ║                                                                                   ║
-║   Name: Gregory Nicolle              Class: Full-Stack Wizard 🧙                  ║
+║   Name: Gregory Nicolle              Class: Full-Stack Wizard                     ║
 ║   Level: Senior                      Guild: Arctic Code Vault                     ║
-║   Title: Pull Shark x2 🦈             Achievement: Quickdraw ⚡                    ║
+║   Title: Pull Shark x2               Achievement: Quickdraw                       ║
 ║                                                                                   ║
 ╠═══════════════════════════════════════════════════════════════════════════════════╣
 ║                                    BASE STATS                                     ║
 ╠═══════════════════════════════════════════════════════════════════════════════════╣
 ║                                                                                   ║
-║   🎯 FRONTEND        ████████████████████░░░░  85/100   "UI Enchanter"            ║
-║   ⚙️ BACKEND          ████████████████████░░░░  90/100   "API Architect"           ║
-║   🔒 SECURITY        ████████████████████░░░░  88/100   "Crypto Guardian"         ║
-║   🤖 AI/ML           ████████████████░░░░░░░░  70/100   "Neural Tamer"            ║
-║   🎮 CREATIVE        ████████████████████░░░░  80/100   "Pixel Mage"              ║
-║   📱 MOBILE          ████████████░░░░░░░░░░░░  55/100   "App Apprentice"          ║
-║   🚀 DEVOPS          ████████████████████░░░░  82/100   "Pipeline Ninja"          ║
+║   [>] FRONTEND       ████████████████████░░░░  85/100   "UI Enchanter"            ║
+║   [>] BACKEND        ████████████████████░░░░  90/100   "API Architect"           ║
+║   [>] SECURITY       ████████████████████░░░░  88/100   "Crypto Guardian"         ║
+║   [>] AI/ML          ████████████████░░░░░░░░  70/100   "Neural Tamer"            ║
+║   [>] CREATIVE       ████████████████████░░░░  80/100   "Pixel Mage"              ║
+║   [>] MOBILE         ████████████░░░░░░░░░░░░  55/100   "App Apprentice"          ║
+║   [>] DEVOPS         ████████████████████░░░░  82/100   "Pipeline Ninja"          ║
 ║                                                                                   ║
 ╠═══════════════════════════════════════════════════════════════════════════════════╣
 ║                                SPECIAL ABILITIES                                  ║
 ╠═══════════════════════════════════════════════════════════════════════════════════╣
 ║                                                                                   ║
-║   [PASSIVE] Clean Code Aura      → +50% code maintainability                      ║
-║   [PASSIVE] Debug Vision         → Can spot bugs before they manifest             ║
-║   [ACTIVE]  Architecture Storm   → Design systems that scale to millions          ║
-║   [ACTIVE]  Security Shield      → Immune to OWASP Top 10 vulnerabilities         ║
-║   [ULTIMATE] Full-Stack Fusion   → Frontend + Backend = Unstoppable               ║
+║   [PASSIVE] Clean Code Aura      -> +50% code maintainability                     ║
+║   [PASSIVE] Debug Vision         -> Can spot bugs before they manifest            ║
+║   [ACTIVE]  Architecture Storm   -> Design systems that scale to millions         ║
+║   [ACTIVE]  Security Shield      -> Immune to OWASP Top 10 vulnerabilities        ║
+║   [ULTIMATE] Full-Stack Fusion   -> Frontend + Backend = Unstoppable              ║
 ║                                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════════════════════╝
 ```
@@ -163,34 +163,34 @@ const developer = {
 ```
 ╔═══════════════════════════════════════════════════════════════════════════════════╗
 ║                                                                                   ║
-║   🏆 ARCTIC CODE VAULT CONTRIBUTOR                                    [UNLOCKED] ║
+║   [*] ARCTIC CODE VAULT CONTRIBUTOR                                   [UNLOCKED] ║
 ║   ┗━━ Your code will survive 1000 years in the Arctic. Literally immortal.       ║
 ║                                                                                   ║
-║   🦈 PULL SHARK x2                                                    [UNLOCKED] ║
+║   [*] PULL SHARK x2                                                   [UNLOCKED] ║
 ║   ┗━━ Merged so many PRs that GitHub gave you a shark. Twice.                    ║
 ║                                                                                   ║
-║   ⚡ QUICKDRAW                                                         [UNLOCKED] ║
+║   [*] QUICKDRAW                                                       [UNLOCKED] ║
 ║   ┗━━ First to respond, first to fix. Speed is your middle name.                 ║
 ║                                                                                   ║
-║   📚 REPOSITORY HOARDER (84+)                                         [UNLOCKED] ║
+║   [*] REPOSITORY HOARDER (84+)                                        [UNLOCKED] ║
 ║   ┗━━ Created more repos than most developers will in a lifetime.                ║
 ║                                                                                   ║
-║   🔐 CRYPTO MASTER                                                    [UNLOCKED] ║
+║   [*] CRYPTO MASTER                                                   [UNLOCKED] ║
 ║   ┗━━ Implemented post-quantum cryptography. Yes, THAT kind of crypto.           ║
 ║                                                                                   ║
-║   🎨 PIXEL PERFECT                                                    [UNLOCKED] ║
+║   [*] PIXEL PERFECT                                                   [UNLOCKED] ║
 ║   ┗━━ Your UIs are so clean, designers weep tears of joy.                        ║
 ║                                                                                   ║
-║   🔒 OWASP GUARDIAN                                                   [UNLOCKED] ║
+║   [*] OWASP GUARDIAN                                                  [UNLOCKED] ║
 ║   ┗━━ No vulnerability survives your code review. None.                          ║
 ║                                                                                   ║
-║   🎮 GAME DEV DABBLER                                                 [UNLOCKED] ║
+║   [*] GAME DEV DABBLER                                                [UNLOCKED] ║
 ║   ┗━━ Built games for fun. Because coding 40h/week wasn't enough.                ║
 ║                                                                                   ║
-║   🧠 AI WHISPERER                                                     [UNLOCKED] ║
+║   [*] AI WHISPERER                                                    [UNLOCKED] ║
 ║   ┗━━ Trained ML models and they actually work. Witchcraft? Maybe.               ║
 ║                                                                                   ║
-║   ☕ COFFEE OVERFLOW                                                  [UNLOCKED] ║
+║   [*] COFFEE OVERFLOW                                                 [UNLOCKED] ║
 ║   ┗━━ Converted caffeine into code since 2014. Still going strong.               ║
 ║                                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════════════════════╝
@@ -203,37 +203,37 @@ const developer = {
 ```
 * ═══════════════════════════════════════════════════════════════════════════════
 │
-│   📅 2024-2026
-│   ┣━━ 🚀 rssgenerator      → Full-stack RSS platform with OWASP security
-│   ┣━━ 🔒 vocalEncryptPQ    → POST-QUANTUM voice encryption (yes, really)
-│   ┣━━ 🤖 sentiment-model   → NLP sentiment analysis with TensorFlow.js
-│   ┣━━ 📱 signalAndroid     → Kotlin Android app with Material Design 3
-│   ┗━━ 🎮 immersive_exp     → WebGL/Three.js immersive experience
+│   [2024-2026]
+│   ┣━━ rssgenerator      -> Full-stack RSS platform with OWASP security
+│   ┣━━ vocalEncryptPQ    -> POST-QUANTUM voice encryption (yes, really)
+│   ┣━━ sentiment-model   -> NLP sentiment analysis with TensorFlow.js
+│   ┣━━ signalAndroid     -> Kotlin Android app with Material Design 3
+│   ┗━━ immersive_exp     -> WebGL/Three.js immersive experience
 │
 * ═══════════════════════════════════════════════════════════════════════════════
 │
-│   📅 2022-2024
-│   ┣━━ 🔍 DeepLinkAudit     → Enterprise SEO crawler & analyzer
-│   ┣━━ 💬 privatechat       → E2E encrypted messaging (Signal-like)
-│   ┣━━ 🎬 custom-netflix    → Netflix clone with TMDB API
-│   ┣━━ 👥 Social-network    → Full MERN stack social platform
-│   ┗━━ 🛒 myShopBooking     → E-commerce booking system with Stripe
+│   [2022-2024]
+│   ┣━━ DeepLinkAudit     -> Enterprise SEO crawler & analyzer
+│   ┣━━ privatechat       -> E2E encrypted messaging (Signal-like)
+│   ┣━━ custom-netflix    -> Netflix clone with TMDB API
+│   ┣━━ Social-network    -> Full MERN stack social platform
+│   ┗━━ myShopBooking     -> E-commerce booking system with Stripe
 │
 * ═══════════════════════════════════════════════════════════════════════════════
 │
-│   📅 2020-2022
-│   ┣━━ 🔗 perfectlinks-v2   → URL shortener & analytics platform
-│   ┣━━ 🔐 jwt-auth          → Production-ready JWT authentication
-│   ┣━━ 🎸 guitarTuner       → Web Audio API pitch detection
-│   ┗━━ 🖼️  ImageWhisper      → AI-powered image analysis tool
+│   [2020-2022]
+│   ┣━━ perfectlinks-v2   -> URL shortener & analytics platform
+│   ┣━━ jwt-auth          -> Production-ready JWT authentication
+│   ┣━━ guitarTuner       -> Web Audio API pitch detection
+│   ┗━━ ImageWhisper      -> AI-powered image analysis tool
 │
 * ═══════════════════════════════════════════════════════════════════════════════
 │
-│   📅 2018-2020
-│   ┣━━ 🛠️  toolsWP           → WordPress developer toolkit (⭐ 3)
-│   ┣━━ 🎮 spaceInvaders     → Canvas game development
-│   ┣━━ 🧊 rubixcube         → Three.js 3D puzzle
-│   ┗━━ 🔑 keyPairGenerator  → Cryptographic key generation tool
+│   [2018-2020]
+│   ┣━━ toolsWP           -> WordPress developer toolkit (* 3)
+│   ┣━━ spaceInvaders     -> Canvas game development
+│   ┣━━ rubixcube         -> Three.js 3D puzzle
+│   ┗━━ keyPairGenerator  -> Cryptographic key generation tool
 │
 * ═══════════════════════════════════════════════════════════════════════════════
 ```
@@ -254,36 +254,36 @@ const developer = {
 ```
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃                                                                               ┃
-┃   🔐 privatechat                                                              ┃
+┃   [+] privatechat                                                             ┃
 ┃   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ┃
 ┃   │ End-to-End Encrypted Messaging Platform                                   ┃
 ┃   │                                                                           ┃
 ┃   │ ╔══════════════════════════════════════════════════════════════════════╗  ┃
 ┃   │ ║  [USER A]  ══════╗          ╔══════  [USER B]                        ║  ┃
-┃   │ ║     │            ║   🔒     ║            │                           ║  ┃
-┃   │ ║     │ AES-256    ║ SECURE   ║    AES-256 │                           ║  ┃
-┃   │ ║     │ ══════════>║ CHANNEL  ║<══════════ │                           ║  ┃
+┃   │ ║     │            ║  SECURE  ║            │                           ║  ┃
+┃   │ ║     │ AES-256    ║ CHANNEL  ║    AES-256 │                           ║  ┃
+┃   │ ║     │ ══════════>║          ║<══════════ │                           ║  ┃
 ┃   │ ║     │   ECDH     ║          ║    ECDH    │                           ║  ┃
 ┃   │ ╚══════════════════════════════════════════════════════════════════════╝  ┃
 ┃   │                                                                           ┃
-┃   │ Stack: Node.js • WebSocket • Web Crypto API                               ┃
+┃   │ Stack: Node.js - WebSocket - Web Crypto API                               ┃
 ┃   │ Features: E2E encryption, Forward Secrecy, Zero-knowledge                 ┃
 ┃   │ Impact: Even the server can't read your messages                          ┃
 ┃   │                                                                           ┃
-┃   └─────────────────────────────────────────────────────────────────────────┃
+┃   └─────────────────────────────────────────────────────────────────────────  ┃
 ┃                                                                               ┃
-┃   ⚛️  vocalEncryptPostQuantic                                                  ┃
+┃   [+] vocalEncryptPostQuantic                                                 ┃
 ┃   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ┃
 ┃   │ Post-Quantum Voice Encryption                                             ┃
 ┃   │                                                                           ┃
-┃   │     🎤 Voice ──> [KYBER-768] ──> 🔐 ──> [DILITHIUM] ──> 📡               ┃
+┃   │     Voice --> [KYBER-768] --> [SECURE] --> [DILITHIUM] --> Output        ┃
 ┃   │                                                                           ┃
 ┃   │ "Ready for quantum computers. Before they're ready for us."               ┃
 ┃   │                                                                           ┃
-┃   │ Stack: JavaScript • Web Audio API • NIST PQC Algorithms                   ┃
+┃   │ Stack: JavaScript - Web Audio API - NIST PQC Algorithms                   ┃
 ┃   │ Why it matters: RSA will break. This won't.                               ┃
 ┃   │                                                                           ┃
-┃   └─────────────────────────────────────────────────────────────────────────┃
+┃   └─────────────────────────────────────────────────────────────────────────  ┃
 ┃                                                                               ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
@@ -296,11 +296,11 @@ const developer = {
 ```
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃                                                                               ┃
-┃   🔍 DeepLinkAudit                                                            ┃
+┃   [+] DeepLinkAudit                                                           ┃
 ┃   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ┃
 ┃   │                                                                           ┃
 ┃   │   ┌─────────────────────────────────────────────────────────────────┐    ┃
-┃   │   │  🌐 WEBSITE STRUCTURE VISUALIZATION                             │    ┃
+┃   │   │  WEBSITE STRUCTURE VISUALIZATION                                │    ┃
 ┃   │   │                                                                 │    ┃
 ┃   │   │            [HOME]                                               │    ┃
 ┃   │   │           /  |  \                                               │    ┃
@@ -308,18 +308,18 @@ const developer = {
 ┃   │   │      [BLOG] [SHOP] [ABOUT]                                      │    ┃
 ┃   │   │       / \     |      |                                          │    ┃
 ┃   │   │   [P1] [P2] [CART] [TEAM]                                       │    ┃
-┃   │   │                ⚠️ 404!                                           │    ┃
+┃   │   │                [!] 404!                                         │    ┃
 ┃   │   └─────────────────────────────────────────────────────────────────┘    ┃
 ┃   │                                                                           ┃
 ┃   │   Features:                                                               ┃
-┃   │   • Crawl entire websites automatically                                   ┃
-┃   │   • Detect broken links (404, 500, redirects)                             ┃
-┃   │   • Generate visual site maps                                             ┃
-┃   │   • Export reports (PDF, CSV, JSON)                                       ┃
+┃   │   - Crawl entire websites automatically                                   ┃
+┃   │   - Detect broken links (404, 500, redirects)                             ┃
+┃   │   - Generate visual site maps                                             ┃
+┃   │   - Export reports (PDF, CSV, JSON)                                       ┃
 ┃   │                                                                           ┃
-┃   └─────────────────────────────────────────────────────────────────────────┃
+┃   └─────────────────────────────────────────────────────────────────────────  ┃
 ┃                                                                               ┃
-┃   📊 linkJuiceChecker                                                         ┃
+┃   [+] linkJuiceChecker                                                        ┃
 ┃   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ┃
 ┃   │                                                                           ┃
 ┃   │   PageRank Distribution Analysis                                          ┃
@@ -327,9 +327,9 @@ const developer = {
 ┃   │   Page A  ████████████████████████████  PR: 0.85                          ┃
 ┃   │   Page B  ██████████████████░░░░░░░░░░  PR: 0.62                          ┃
 ┃   │   Page C  ████████████░░░░░░░░░░░░░░░░  PR: 0.41                          ┃
-┃   │   Page D  ██████░░░░░░░░░░░░░░░░░░░░░░  PR: 0.23  ⚠️ Orphan!              ┃
+┃   │   Page D  ██████░░░░░░░░░░░░░░░░░░░░░░  PR: 0.23  [!] Orphan!             ┃
 ┃   │                                                                           ┃
-┃   └─────────────────────────────────────────────────────────────────────────┃
+┃   └─────────────────────────────────────────────────────────────────────────  ┃
 ┃                                                                               ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
@@ -342,38 +342,38 @@ const developer = {
 ```
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃                                                                               ┃
-┃   🧠 sentiment-analyser-model                                                 ┃
+┃   [+] sentiment-analyser-model                                                ┃
 ┃   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ┃
 ┃   │                                                                           ┃
 ┃   │   Input: "This product is absolutely amazing!"                            ┃
 ┃   │                     │                                                     ┃
-┃   │                     ▼                                                     ┃
+┃   │                     v                                                     ┃
 ┃   │   ┌─────────────────────────────────────────┐                             ┃
 ┃   │   │         NEURAL NETWORK                  │                             ┃
-┃   │   │   ○───○───○                             │                             ┃
+┃   │   │   o---o---o                             │                             ┃
 ┃   │   │    \ / \ /                              │                             ┃
-┃   │   │     ○   ○    → TensorFlow.js            │                             ┃
+┃   │   │     o   o    -> TensorFlow.js           │                             ┃
 ┃   │   │    / \ / \                              │                             ┃
-┃   │   │   ○───○───○                             │                             ┃
+┃   │   │   o---o---o                             │                             ┃
 ┃   │   └─────────────────────────────────────────┘                             ┃
 ┃   │                     │                                                     ┃
-┃   │                     ▼                                                     ┃
-┃   │   Output: POSITIVE 😊 (confidence: 94.7%)                                 ┃
+┃   │                     v                                                     ┃
+┃   │   Output: POSITIVE [+] (confidence: 94.7%)                                ┃
 ┃   │                                                                           ┃
-┃   │   Stack: TypeScript • TensorFlow.js • NLP                                 ┃
+┃   │   Stack: TypeScript - TensorFlow.js - NLP                                 ┃
 ┃   │                                                                           ┃
-┃   └─────────────────────────────────────────────────────────────────────────┃
+┃   └─────────────────────────────────────────────────────────────────────────  ┃
 ┃                                                                               ┃
-┃   👁️  ImageWhisper                                                            ┃
+┃   [+] ImageWhisper                                                            ┃
 ┃   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ┃
 ┃   │                                                                           ┃
-┃   │   🖼️ ──> [VISION AI] ──> "A cat sitting on a laptop keyboard"              ┃
-┃   │                         "Detected: cat (98%), laptop (95%)"               ┃
-┃   │                         "OCR: 'Hello World' on screen"                    ┃
+┃   │   [IMG] --> [VISION AI] --> "A cat sitting on a laptop keyboard"          ┃
+┃   │                             "Detected: cat (98%), laptop (95%)"           ┃
+┃   │                             "OCR: 'Hello World' on screen"                ┃
 ┃   │                                                                           ┃
-┃   │   Stack: TypeScript • React • OpenAI Vision • Google Cloud Vision         ┃
+┃   │   Stack: TypeScript - React - OpenAI Vision - Google Cloud Vision         ┃
 ┃   │                                                                           ┃
-┃   └─────────────────────────────────────────────────────────────────────────┃
+┃   └─────────────────────────────────────────────────────────────────────────  ┃
 ┃                                                                               ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
@@ -386,54 +386,54 @@ const developer = {
 ```
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃                                                                               ┃
-┃   🌌 immersive_experience                                                     ┃
+┃   [+] immersive_experience                                                    ┃
 ┃   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ┃
 ┃   │                                                                           ┃
 ┃   │      ╔═══════════════════════════════════════╗                            ┃
-┃   │      ║   ✧  ·  ✦     THREE.JS     ✦  ·  ✧   ║                            ┃
-┃   │      ║        ·    WEBGL MAGIC    ·         ║                            ┃
-┃   │      ║    ✧       3D WORLDS        ✧       ║                            ┃
-┃   │      ║         ·    60 FPS    ·            ║                            ┃
-┃   │      ║    ✦    SHADERS & GLSL    ✦        ║                            ┃
+┃   │      ║   *  .  *     THREE.JS     *  .  *    ║                            ┃
+┃   │      ║        .    WEBGL MAGIC    .          ║                            ┃
+┃   │      ║    *       3D WORLDS        *         ║                            ┃
+┃   │      ║         .    60 FPS    .              ║                            ┃
+┃   │      ║    *    SHADERS & GLSL    *           ║                            ┃
 ┃   │      ╚═══════════════════════════════════════╝                            ┃
 ┃   │                                                                           ┃
-┃   └─────────────────────────────────────────────────────────────────────────┃
+┃   └─────────────────────────────────────────────────────────────────────────  ┃
 ┃                                                                               ┃
-┃   👾 spaceInvaders                                                            ┃
+┃   [+] spaceInvaders                                                           ┃
 ┃   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ┃
 ┃   │                                                                           ┃
 ┃   │   ╔════════════════════════════════════════════╗                          ┃
 ┃   │   ║  SCORE: 1337          HIGH: 9999           ║                          ┃
 ┃   │   ║                                            ║                          ┃
-┃   │   ║    👾 👾 👾 👾 👾 👾 👾 👾 👾 👾           ║                          ┃
-┃   │   ║    👾 👾 👾 👾 👾 👾 👾 👾 👾 👾           ║                          ┃
-┃   │   ║    👾 👾 👾 👾 👾 👾 👾 👾 👾 👾           ║                          ┃
+┃   │   ║    ## ## ## ## ## ## ## ## ## ##           ║                          ┃
+┃   │   ║    ## ## ## ## ## ## ## ## ## ##           ║                          ┃
+┃   │   ║    ## ## ## ## ## ## ## ## ## ##           ║                          ┃
 ┃   │   ║                                            ║                          ┃
-┃   │   ║                   💥                       ║                          ┃
-┃   │   ║                   │                        ║                          ┃
-┃   │   ║                  🚀                        ║                          ┃
+┃   │   ║                   **                       ║                          ┃
+┃   │   ║                   |                        ║                          ┃
+┃   │   ║                  /\                        ║                          ┃
 ┃   │   ╚════════════════════════════════════════════╝                          ┃
 ┃   │                                                                           ┃
-┃   │   Stack: HTML5 Canvas • Vanilla JS • Retro Sounds                         ┃
+┃   │   Stack: HTML5 Canvas - Vanilla JS - Retro Sounds                         ┃
 ┃   │                                                                           ┃
-┃   └─────────────────────────────────────────────────────────────────────────┃
+┃   └─────────────────────────────────────────────────────────────────────────  ┃
 ┃                                                                               ┃
-┃   🧊 rubixcube                                                                ┃
+┃   [+] rubixcube                                                               ┃
 ┃   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ┃
 ┃   │                                                                           ┃
 ┃   │           ┌───┬───┬───┐                                                   ┃
-┃   │          /🟥/🟥/🟥/│                                                      ┃
-┃   │         ┌───┬───┬───┤🟧│                                                  ┃
-┃   │        /🟥/🟥/🟥/│🟧│                                                     ┃
-┃   │       ┌───┬───┬───┤🟧├───┘                                                ┃
-┃   │       │🟥│🟥│🟥│🟧│                                                       ┃
+┃   │          /R /R /R /│                                                      ┃
+┃   │         ┌───┬───┬───┤O │                                                  ┃
+┃   │        /R /R /R /│O │                                                     ┃
+┃   │       ┌───┬───┬───┤O ├───┘                                                ┃
+┃   │       │R │R │R │O │                                                       ┃
 ┃   │       ├───┼───┼───┼───┤        Interactive 3D Rubik's Cube                ┃
-┃   │       │🟩│🟩│🟩│🟧│        Solve it in your browser!                      ┃
+┃   │       │G │G │G │O │        Solve it in your browser!                      ┃
 ┃   │       ├───┼───┼───┼───┘                                                   ┃
-┃   │       │🟩│🟩│🟩│                                                          ┃
-┃   │       └───┴───┴───┘            Stack: Three.js • Quaternions              ┃
+┃   │       │G │G │G │                                                          ┃
+┃   │       └───┴───┴───┘            Stack: Three.js - Quaternions              ┃
 ┃   │                                                                           ┃
-┃   └─────────────────────────────────────────────────────────────────────────┃
+┃   └─────────────────────────────────────────────────────────────────────────  ┃
 ┃                                                                               ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
@@ -446,42 +446,42 @@ const developer = {
 ```
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃                                                                               ┃
-┃   🎤 voicelive_pro                                                            ┃
+┃   [+] voicelive_pro                                                           ┃
 ┃   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ┃
 ┃   │                                                                           ┃
 ┃   │   Real-time Voice Processing                                              ┃
 ┃   │                                                                           ┃
-┃   │   INPUT 🎤 ─────────────────────────────────────────────                  ┃
-┃   │        ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▁▂▃▄▅▆▇█▇▆▅▄▃                     ┃
+┃   │   INPUT [MIC] ──────────────────────────────────────────                  ┃
+┃   │        ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▁▂▃▄▅▆▇█▇▆▅▄▃                       ┃
 ┃   │                                                                           ┃
 ┃   │   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐                    ┃
 ┃   │   │   REVERB     │  │    DELAY     │  │  PITCH SHIFT │                    ┃
 ┃   │   │  ████████░░  │  │  ██████░░░░  │  │  ██████████  │                    ┃
 ┃   │   └──────────────┘  └──────────────┘  └──────────────┘                    ┃
 ┃   │                                                                           ┃
-┃   │   OUTPUT 🔊 ────────────────────────────────────────────                  ┃
-┃   │         ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▁▂▃▄▅▆▇█▇▆▅▄▃                    ┃
+┃   │   OUTPUT [SPK] ─────────────────────────────────────────                  ┃
+┃   │        ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▁▂▃▄▅▆▇█▇▆▅▄▃                       ┃
 ┃   │                                                                           ┃
-┃   │   Stack: Python • PyAudio • NumPy • SciPy                                 ┃
+┃   │   Stack: Python - PyAudio - NumPy - SciPy                                 ┃
 ┃   │                                                                           ┃
-┃   └─────────────────────────────────────────────────────────────────────────┃
+┃   └─────────────────────────────────────────────────────────────────────────  ┃
 ┃                                                                               ┃
-┃   🎸 guitarTuner                                                              ┃
+┃   [+] guitarTuner                                                             ┃
 ┃   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ┃
 ┃   │                                                                           ┃
-┃   │        ╭────────────────────────────────────────────╮                     ┃
-┃   │        │     E  A  D  G  B  E                       │                     ┃
-┃   │        │                                            │                     ┃
-┃   │        │              ▲                             │                     ┃
-┃   │        │    ◀─────────●─────────▶                   │                     ┃
-┃   │        │         ✓ IN TUNE                          │                     ┃
-┃   │        │                                            │                     ┃
-┃   │        │    Detected: A4 = 440.0 Hz                 │                     ┃
-┃   │        ╰────────────────────────────────────────────╯                     ┃
+┃   │        +--------------------------------------------+                     ┃
+┃   │        |     E  A  D  G  B  E                       |                     ┃
+┃   │        |                                            |                     ┃
+┃   │        |              ^                             |                     ┃
+┃   │        |    <---------o--------->                   |                     ┃
+┃   │        |         [OK] IN TUNE                       |                     ┃
+┃   │        |                                            |                     ┃
+┃   │        |    Detected: A4 = 440.0 Hz                 |                     ┃
+┃   │        +--------------------------------------------+                     ┃
 ┃   │                                                                           ┃
-┃   │   Stack: TypeScript • Web Audio API • FFT                                 ┃
+┃   │   Stack: TypeScript - Web Audio API - FFT                                 ┃
 ┃   │                                                                           ┃
-┃   └─────────────────────────────────────────────────────────────────────────┃
+┃   └─────────────────────────────────────────────────────────────────────────  ┃
 ┃                                                                               ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
@@ -494,21 +494,21 @@ const developer = {
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐
-│                           🎯 BATTLE STRATEGIES 🎯                               │
+│                              BATTLE STRATEGIES                                  │
 ├─────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                 │
 │   ┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐     │
 │   │    AGILE    │    │     TDD     │    │    SOLID    │    │    CI/CD    │     │
-│   │    🏃 🏃    │    │    🧪 ✅    │    │   📐 🎯    │    │   🚀 ♻️     │     │
+│   │    [>>]     │    │    [OK]     │    │    [#]      │    │    [GO]     │     │
 │   │             │    │             │    │             │    │             │     │
-│   │  Sprints    │───▶│  Test First │───▶│  Clean      │───▶│  Deploy     │     │
+│   │  Sprints    │--->│  Test First │--->│  Clean      │--->│  Deploy     │     │
 │   │  Standups   │    │  Red-Green  │    │  Design     │    │  Always     │     │
 │   │  Retros     │    │  Refactor   │    │  Patterns   │    │  Ready      │     │
 │   └─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘     │
 │                                                                                 │
 ├─────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                 │
-│   Security First 🔒          Documentation 📚          Code Review 👀          │
+│   Security First             Documentation              Code Review             │
 │   ───────────────            ───────────────           ───────────────          │
 │   OWASP Top 10               README Always             PR = Learning            │
 │   Secure by Design           API Docs                  Pair Programming         │
@@ -524,7 +524,7 @@ const developer = {
 ```
 ╔═══════════════════════════════════════════════════════════════════════════════════╗
 ║                                                                                   ║
-║   💼 WHY YOU SHOULD HIRE ME (run with sudo for best results)                     ║
+║   WHY YOU SHOULD HIRE ME (run with sudo for best results)                         ║
 ║                                                                                   ║
 ╠═══════════════════════════════════════════════════════════════════════════════════╣
 ║                                                                                   ║
@@ -571,15 +571,15 @@ const developer = {
 ```
 ╔═══════════════════════════════════════════════════════════════════════════════════╗
 ║                                                                                   ║
-║                              📡 ESTABLISH CONNECTION 📡                           ║
+║                             ESTABLISH CONNECTION                                  ║
 ║                                                                                   ║
 ║   ┌─────────────────────────────────────────────────────────────────────────┐    ║
 ║   │                                                                         │    ║
-║   │   GitHub      →   github.com/artkabis                   🟢 ONLINE      │    ║
-║   │   LinkedIn    →   linkedin.com/in/artkabis              🟢 ONLINE      │    ║
-║   │   Portfolio   →   perfectlinks.artkabis.fr              🟢 ONLINE      │    ║
-║   │   CodePen     →   codepen.io/artkabis                   🟢 ONLINE      │    ║
-║   │   Dev.to      →   dev.to/artkabis                       🟢 ONLINE      │    ║
+║   │   GitHub      ->   github.com/artkabis                   [ONLINE]       │    ║
+║   │   LinkedIn    ->   linkedin.com/in/artkabis              [ONLINE]       │    ║
+║   │   Portfolio   ->   perfectlinks.artkabis.fr              [ONLINE]       │    ║
+║   │   CodePen     ->   codepen.io/artkabis                   [ONLINE]       │    ║
+║   │   Dev.to      ->   dev.to/artkabis                       [ONLINE]       │    ║
 ║   │                                                                         │    ║
 ║   └─────────────────────────────────────────────────────────────────────────┘    ║
 ║                                                                                   ║
@@ -587,9 +587,9 @@ const developer = {
 ║                                                                                   ║
 ║   ┌─────────────────────────────────────────────────────────────────────────┐    ║
 ║   │                                                                         │    ║
-║   │   💼 Contract Types:    CDI • Freelance • Contract                      │    ║
-║   │   📍 Work Mode:         Remote • Hybrid • On-site (France)              │    ║
-║   │   🎯 Roles:             Tech Lead • Senior Dev • Project Manager        │    ║
+║   │   Contract Types:    CDI - Freelance - Contract                         │    ║
+║   │   Work Mode:         Remote - Hybrid - On-site (France)                 │    ║
+║   │   Roles:             Tech Lead - Senior Dev - Project Manager           │    ║
 ║   │                                                                         │    ║
 ║   └─────────────────────────────────────────────────────────────────────────┘    ║
 ║                                                                                   ║
