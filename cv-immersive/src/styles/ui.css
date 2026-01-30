@@ -18,10 +18,10 @@
   top: 0;
   left: 0;
   height: 3px;
+  /* CV section colors: Boot, Identity, Skills, Experience, Projects, Achievements, Lab, Contact */
   background: linear-gradient(90deg,
-    #00ffc8, #8a2be2, #ff0080, #ffd700, #ffc800,
-    #8b7765, #00c8ff, #00ff7f, #ff00ff, #ff0000, #ffffff);
-  background-size: 1100% 100%;
+    #00ff00, #00ffc8, #8a2be2, #ff00ff, #00c8ff, #ffd700, #ff0080, #00ff7f);
+  background-size: 800% 100%;
   z-index: 1000;
   width: 0%;
   box-shadow: 0 0 20px var(--universe-color, #00ffc8);
@@ -391,4 +391,299 @@
     width: 45px;
     height: 45px;
   }
+}
+
+/* ====== CV IMMERSIVE STYLES ====== */
+
+/* CV Profile Section */
+.cv-profile {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cv-profile h2 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+  color: var(--universe-color, #00ffc8);
+}
+
+.cv-title {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+.cv-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.cv-badge {
+  background: rgba(255, 215, 0, 0.2);
+  border: 1px solid #ffd700;
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-size: 0.65rem;
+  letter-spacing: 1px;
+  color: #ffd700;
+}
+
+.cv-stats {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
+
+/* CV Skills Section */
+.cv-skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.skill-category {
+  background: rgba(0, 0, 0, 0.4);
+  border-left: 3px solid;
+  padding: 12px;
+  border-radius: 0 8px 8px 0;
+}
+
+.skill-category h3 {
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.skill-item {
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.9;
+}
+
+.skill-item small {
+  color: var(--universe-color, #00ffc8);
+  font-weight: bold;
+}
+
+/* CV Experience Section */
+.cv-experience {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.exp-period {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 12px 15px;
+  border-radius: 8px;
+  border-left: 3px solid var(--universe-color, #ff00ff);
+}
+
+.exp-years {
+  font-family: 'Orbitron', monospace;
+  font-size: 0.7rem;
+  color: var(--universe-color, #ff00ff);
+  min-width: 80px;
+}
+
+.exp-title {
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+/* CV Projects Section */
+.cv-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.project-card {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 200, 255, 0.3);
+  transition: all 0.3s;
+}
+
+.project-card:hover {
+  border-color: var(--universe-color, #00c8ff);
+  box-shadow: 0 0 20px rgba(0, 200, 255, 0.2);
+}
+
+.project-card h4 {
+  font-size: 0.9rem;
+  color: var(--universe-color, #00c8ff);
+  margin-bottom: 8px;
+}
+
+.project-card p {
+  font-size: 0.75rem;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tech-tag {
+  background: rgba(0, 200, 255, 0.15);
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 0.6rem;
+  color: #00c8ff;
+  letter-spacing: 0.5px;
+}
+
+/* CV Achievements Section */
+.cv-achievements {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.trophy {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.trophy-legendary {
+  border: 2px solid #ffd700;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+.trophy-epic {
+  border: 2px solid #a855f7;
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.3);
+}
+
+.trophy-rare {
+  border: 2px solid #3b82f6;
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
+}
+
+.trophy-name {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.trophy-legendary .trophy-name { color: #ffd700; }
+.trophy-epic .trophy-name { color: #a855f7; }
+.trophy-rare .trophy-name { color: #3b82f6; }
+
+.trophy-desc {
+  font-size: 0.6rem;
+  opacity: 0.7;
+  display: block;
+}
+
+/* CV Lab Section */
+.cv-lab {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.lab-hint {
+  font-size: 0.75rem;
+  opacity: 0.6;
+  margin: 10px 0;
+  font-family: 'Space Mono', monospace;
+  letter-spacing: 1px;
+}
+
+.lab-hint:hover {
+  opacity: 1;
+  color: var(--universe-color, #ff0080);
+}
+
+/* CV Contact Section */
+.cv-contact {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-status {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1rem;
+  color: #00ff7f;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.contact-link {
+  background: rgba(0, 255, 127, 0.15);
+  border: 1px solid rgba(0, 255, 127, 0.5);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  color: #00ff7f;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+
+.contact-link:hover {
+  background: #00ff7f;
+  color: #000;
+  box-shadow: 0 0 20px rgba(0, 255, 127, 0.5);
+}
+
+.work-modes {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.work-mode {
+  font-size: 0.7rem;
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
+
+/* Card description styling */
+.card-description {
+  font-size: 0.85rem;
+  opacity: 0.8;
+  line-height: 1.5;
+  margin-bottom: 15px;
 }

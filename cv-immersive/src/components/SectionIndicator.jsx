@@ -1,18 +1,16 @@
 import React from 'react';
 
-const SectionIndicator = ({ currentSection = 0, totalSections = 11, onSectionClick = null }) => {
+const SectionIndicator = ({ currentSection = 0, totalSections = 8, onSectionClick = null }) => {
+  // CV Section names for the immersive CV experience
   const sectionNames = [
-    'Genèse',
-    'Nébuleuse',
-    'Plasma',
-    'Forge',
-    'Fractale',
-    'Astéroïdes',
-    'Océan',
-    'Aurore',
-    'Vortex',
-    'Glitch',
-    'Singularité'
+    'Boot',
+    'Identité',
+    'Compétences',
+    'Parcours',
+    'Projets',
+    'Trophées',
+    'Lab',
+    'Contact'
   ];
 
   const handleDotClick = (index) => {

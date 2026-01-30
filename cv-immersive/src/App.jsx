@@ -45,8 +45,15 @@ import {
   updateParticleCount
 } from './utils/InstancedParticles.js';
 
-// Import data
-import { universeData } from './data/universes.js';
+// Import CV data
+import cvData, { sections as cvSections } from './data/cvDataLoader.js';
+
+// Import Easter Egg system
+import { getEasterEggManager } from './utils/EasterEggManager.js';
+const EasterEggNotification = lazy(() => import('./components/EasterEggNotification.jsx'));
+
+// Map sections to match expected format for components
+const sectionData = cvSections;
 
 // Import post-processing
 import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
@@ -76,6 +83,7 @@ function App() {
   const [graphicsSettingsVisible, setGraphicsSettingsVisible] = useState(false);
   const [graphicsSettings, setGraphicsSettings] = useState(() => getInitialSettings());
   const [currentFPS, setCurrentFPS] = useState(60);
+  const [easterEggNotification, setEasterEggNotification] = useState(null);
 
   // Refs for Three.js and physics
   const canvasRef = useRef(null);
@@ -116,6 +124,7 @@ function App() {
   const audioEngineRef = useRef(null);
   const radarRef = useRef(null);
   const radarInitializedRef = useRef(false);
+  const easterEggManagerRef = useRef(null);
   const mouseXRef = useRef(0);
   const mouseYRef = useRef(0);
   const isMouseDownRef = useRef(false);
@@ -135,37 +144,31 @@ function App() {
     setTimeout(() => setModeIndicatorVisible(false), 1500);
   };
 
-  // Update post-processing effects based on universe
-  const updatePostProcessingForUniverse = (section) => {
+  // Update post-processing effects based on CV section
+  const updatePostProcessingForSection = (section) => {
     if (!postProcessingEnabled || !bloomPassRef.current || !chromaticAberrationPassRef.current) return;
 
-    // Universe-specific post-processing profiles
+    // CV section-specific post-processing profiles
     const profiles = [
-      // 0: Genesis - Intense bloom, minimal aberration (purity, birth)
+      // 0: Boot - Terminal green glow, tech startup
       { bloom: 0.9, aberration: 0.001, grain: 0.0 },
-      // 1: Nebula - High bloom, moderate aberration (cosmic clouds)
-      { bloom: 0.8, aberration: 0.0015, grain: 0.0 },
-      // 2: Plasma - Maximum bloom, high aberration (energy)
-      { bloom: 1.1, aberration: 0.002, grain: 0.0 },
-      // 3: Stellar Forge - Strong bloom (bright stars)
-      { bloom: 1.0, aberration: 0.0012, grain: 0.0 },
-      // 4: Fractal - Moderate effects (geometric clarity)
-      { bloom: 0.6, aberration: 0.001, grain: 0.0 },
-      // 5: Asteroids - Reduced bloom (dark rocks)
-      { bloom: 0.5, aberration: 0.0008, grain: 0.0 },
-      // 6: Cosmic Ocean - Flowing bloom (liquid light)
-      { bloom: 0.75, aberration: 0.0018, grain: 0.0 },
-      // 7: Aurora - High bloom, subtle aberration (magnetic dance)
-      { bloom: 0.85, aberration: 0.0013, grain: 0.0 },
-      // 8: Vortex - Maximum aberration (distortion)
-      { bloom: 0.7, aberration: 0.0025, grain: 0.0 },
-      // 9: Glitch - Extreme aberration (quantum anomaly)
-      { bloom: 0.55, aberration: 0.003, grain: 0.0 },
-      // 10: Singularity - Inverted bloom, max aberration (black hole)
-      { bloom: 0.4, aberration: 0.0035, grain: 0.0 }
+      // 1: Identity - Professional cyan, clean
+      { bloom: 0.8, aberration: 0.0012, grain: 0.0 },
+      // 2: Skills - Purple matrix, technical depth
+      { bloom: 1.0, aberration: 0.0015, grain: 0.0 },
+      // 3: Experience - Magenta timeline, journey
+      { bloom: 0.85, aberration: 0.0018, grain: 0.0 },
+      // 4: Projects - Blue showcase, innovation
+      { bloom: 0.9, aberration: 0.0014, grain: 0.0 },
+      // 5: Achievements - Golden trophies, celebration
+      { bloom: 1.1, aberration: 0.001, grain: 0.0 },
+      // 6: Lab - Pink experimental, creative
+      { bloom: 0.75, aberration: 0.002, grain: 0.0 },
+      // 7: Contact - Green connection, call to action
+      { bloom: 0.95, aberration: 0.0012, grain: 0.0 }
     ];
 
-    const profile = profiles[section];
+    const profile = profiles[section] || profiles[0];
 
     // Animate transitions
     gsap.to(bloomPassRef.current, {
@@ -192,16 +195,16 @@ function App() {
   // Update UI based on current section
   const updateUI = (section) => {
     setCurrentSection(section);
-    document.documentElement.style.setProperty('--universe-color', universeData[section].color);
+    document.documentElement.style.setProperty('--universe-color', sectionData[section].color);
     if (radarRef.current) {
-      radarRef.current.setColor(universeData[section].color);
+      radarRef.current.setColor(sectionData[section].color);
     }
-    updatePostProcessingForUniverse(section);
+    updatePostProcessingForSection(section);
   };
 
   // Update grid color
   const updateGridColor = (section) => {
-    const color = new THREE.Color(universeData[section].color);
+    const color = new THREE.Color(sectionData[section].color);
     if (gridLinesRef.current) {
       gridLinesRef.current.children.forEach(line => {
         line.material.color = color;
@@ -531,7 +534,7 @@ function App() {
 
   // Handle section navigation
   const handleSectionClick = (section) => {
-    const totalSections = 11;
+    const totalSections = sectionData.length;
     const targetScroll = section * (document.body.scrollHeight - window.innerHeight) / (totalSections - 1);
     window.scrollTo({ top: targetScroll, behavior: 'smooth' });
   };
@@ -954,8 +957,8 @@ function App() {
 
         // Note: Radar will be initialized on first activation (lazy loading)
 
-        // GSAP ScrollTrigger
-        const totalSections = 11;
+        // GSAP ScrollTrigger for CV sections
+        const totalSections = sectionData.length; // 8 CV sections
         const sectionDuration = 1 / totalSections;
         let previousSection = 0; // Track previous section locally to avoid closure issues
 
@@ -982,33 +985,40 @@ function App() {
           }
         });
 
+        // Camera positions for each CV section
         const cameraPositions = [
-          { x: 0, y: 5, z: 18 }, { x: -10, y: 8, z: 14 }, { x: 5, y: 4, z: 12 },
-          { x: 0, y: 12, z: 10 }, { x: -8, y: 15, z: 8 }, { x: 8, y: 6, z: 16 },
-          { x: 0, y: 2, z: 20 }, { x: -6, y: 8, z: 15 }, { x: 0, y: 5, z: 12 },
-          { x: 5, y: 10, z: 14 }, { x: 0, y: 20, z: 25 }
+          { x: 0, y: 5, z: 18 },   // 0: Boot - Starting view
+          { x: -8, y: 6, z: 14 },  // 1: Identity - Slight left
+          { x: 5, y: 8, z: 12 },   // 2: Skills - Right, higher
+          { x: 0, y: 10, z: 10 },  // 3: Experience - Center, elevated
+          { x: -6, y: 6, z: 16 },  // 4: Projects - Left side
+          { x: 8, y: 12, z: 14 },  // 5: Achievements - Right, high
+          { x: 0, y: 4, z: 18 },   // 6: Lab - Center, closer
+          { x: 0, y: 15, z: 22 }   // 7: Contact - Final overview
         ];
 
         for (let i = 0; i < totalSections - 1; i++) {
           mainTimeline.to(camera.position, { ...cameraPositions[i + 1], duration: sectionDuration }, i * sectionDuration);
         }
 
+        // Special effects at Lab section (trigger physics playground)
         mainTimeline.to({}, {
           duration: 0.01,
           onStart: () => { if (!gravityInverted && worldRef.current) worldRef.current.gravity = { x: 0, y: -2, z: 0 }; },
           onReverseComplete: () => { if (!gravityInverted && worldRef.current) worldRef.current.gravity = { x: 0, y: -9.81, z: 0 }; }
-        }, sectionDuration * 6);
+        }, sectionDuration * 5);
 
         mainTimeline.to({}, {
           duration: 0.01,
           onStart: () => { if (!gravityInverted && worldRef.current) worldRef.current.gravity = { x: 0, y: -9.81, z: 0 }; }
-        }, sectionDuration * 7);
+        }, sectionDuration * 6);
 
+        // Celebration at final Contact section
         mainTimeline.to({}, {
           duration: 0.01,
           onStart: () => triggerBigBang(),
           onReverseComplete: () => resetGravity()
-        }, sectionDuration * 10 + 0.05);
+        }, sectionDuration * 7 + 0.05);
 
         // Window resize handler
         const handleResize = () => {
@@ -1025,6 +1035,15 @@ function App() {
 
         window.addEventListener('resize', handleResize);
 
+        // Initialize Easter Egg Manager
+        debugManager.log('Init', 'Initializing Easter Egg manager...');
+        const easterEggManager = getEasterEggManager();
+        easterEggManager.onEasterEgg((notification) => {
+          setEasterEggNotification(notification);
+        });
+        easterEggManagerRef.current = easterEggManager;
+        debugManager.log('Init', 'Easter Egg manager initialized');
+
         // Start animation loop
         if (isMounted) {
           animate();
@@ -1032,7 +1051,7 @@ function App() {
             scene: !!scene,
             camera: !!camera,
             renderer: !!renderer,
-            universes: universeData.length
+            sections: sectionData.length
           });
         }
 
@@ -1118,7 +1137,7 @@ function App() {
         const radarCanvas = document.getElementById('radarCanvas');
         if (radarCanvas && !radarRef.current) {
           const radar = new CosmicRadar('radarCanvas');
-          radar.setColor(universeData[currentSection].color);
+          radar.setColor(sectionData[currentSection].color);
           radarRef.current = radar;
           radarInitializedRef.current = true;
           debugManager.updatePerformance({ radarLoaded: true });
@@ -1344,34 +1363,45 @@ function App() {
       {/* Section Indicator */}
       <SectionIndicator
         currentSection={currentSection}
+        totalSections={sectionData.length}
         onSectionClick={handleSectionClick}
       />
 
-      {/* Universe Name */}
+      {/* Section Name */}
       <UniverseName
-        name={universeData[currentSection].name}
-        color={universeData[currentSection].color}
+        name={sectionData[currentSection].name}
+        color={sectionData[currentSection].color}
       />
 
-      {/* Chapter Number */}
+      {/* Section Number */}
       <ChapterNumber number={currentSection + 1} />
 
-      {/* Sections */}
+      {/* CV Sections */}
       <div id="ui">
-        {universeData.map((universe, index) => (
+        {sectionData.map((section, index) => (
           <Section
-            key={universe.id}
-            universe={universe.id}
+            key={section.id}
+            universe={section.id}
             align={index % 3 === 0 ? 'flex-start' : index % 3 === 1 ? 'flex-end' : 'center'}
           >
             <Card
-              symbol={universe.symbol}
-              title={universe.name}
-              description={universe.description}
+              symbol={section.symbol}
+              title={section.title}
+              description={section.description}
+              sectionType={section.type}
+              sectionData={section}
             />
           </Section>
         ))}
       </div>
+
+      {/* Easter Egg Notification */}
+      <Suspense fallback={null}>
+        <EasterEggNotification
+          notification={easterEggNotification}
+          onComplete={() => setEasterEggNotification(null)}
+        />
+      </Suspense>
 
       {/* Instructions */}
       <Instructions />

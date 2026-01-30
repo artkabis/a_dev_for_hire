@@ -3,7 +3,7 @@
  * Handles all secret interactions and easter eggs in the CV Immersive experience
  */
 
-import { easterEggs } from '../data/cvSections.js';
+import { easterEggs } from '../data/cvDataLoader.js';
 
 class EasterEggManager {
   constructor() {
