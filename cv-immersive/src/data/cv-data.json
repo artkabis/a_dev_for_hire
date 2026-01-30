@@ -1,0 +1,518 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-01-30",
+    "language": "fr"
+  },
+  "profile": {
+    "name": "Gregory Nicolle",
+    "alias": "artkabis",
+    "title": "Full-Stack Engineer & Tech Lead",
+    "location": "France",
+    "experience": "10+ years",
+    "repositories": 84,
+    "status": "Available for hire",
+    "badges": ["Arctic Code Vault", "Pull Shark x2", "Quickdraw"],
+    "motto": "Le code est comme l'humour. Quand on doit l'expliquer, c'est mauvais."
+  },
+  "skills": {
+    "categories": [
+      {
+        "name": "Frontend",
+        "color": "#00ffc8",
+        "skills": [
+          { "name": "JavaScript", "level": 95, "years": 10 },
+          { "name": "TypeScript", "level": 90, "years": 5 },
+          { "name": "React.js", "level": 95, "years": 6 },
+          { "name": "Vue.js", "level": 80, "years": 4 },
+          { "name": "Angular", "level": 75, "years": 3 },
+          { "name": "Three.js", "level": 85, "years": 4 },
+          { "name": "HTML/CSS", "level": 95, "years": 10 },
+          { "name": "Tailwind", "level": 90, "years": 3 },
+          { "name": "GSAP", "level": 85, "years": 5 },
+          { "name": "WebGL", "level": 80, "years": 4 }
+        ]
+      },
+      {
+        "name": "Backend",
+        "color": "#8a2be2",
+        "skills": [
+          { "name": "Node.js", "level": 90, "years": 7 },
+          { "name": "Express", "level": 90, "years": 6 },
+          { "name": "Python", "level": 75, "years": 4 },
+          { "name": "GraphQL", "level": 80, "years": 3 },
+          { "name": "REST APIs", "level": 95, "years": 8 },
+          { "name": "WebSocket", "level": 85, "years": 5 }
+        ]
+      },
+      {
+        "name": "Database",
+        "color": "#ffd700",
+        "skills": [
+          { "name": "MongoDB", "level": 85, "years": 5 },
+          { "name": "PostgreSQL", "level": 80, "years": 4 },
+          { "name": "Redis", "level": 75, "years": 3 },
+          { "name": "Firebase", "level": 85, "years": 4 }
+        ]
+      },
+      {
+        "name": "DevOps",
+        "color": "#ff0080",
+        "skills": [
+          { "name": "Docker", "level": 80, "years": 4 },
+          { "name": "Git", "level": 95, "years": 10 },
+          { "name": "CI/CD", "level": 85, "years": 5 },
+          { "name": "AWS", "level": 70, "years": 3 },
+          { "name": "GitHub Actions", "level": 85, "years": 4 }
+        ]
+      },
+      {
+        "name": "Security",
+        "color": "#ff0000",
+        "skills": [
+          { "name": "OWASP", "level": 90, "years": 6 },
+          { "name": "Cryptography", "level": 85, "years": 4 },
+          { "name": "JWT/OAuth", "level": 90, "years": 5 },
+          { "name": "Post-Quantum Crypto", "level": 70, "years": 2 }
+        ]
+      },
+      {
+        "name": "AI/ML",
+        "color": "#00c8ff",
+        "skills": [
+          { "name": "TensorFlow.js", "level": 75, "years": 3 },
+          { "name": "NLP", "level": 70, "years": 2 },
+          { "name": "OpenAI API", "level": 80, "years": 2 },
+          { "name": "Computer Vision", "level": 65, "years": 2 }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "periods": [
+      {
+        "years": "2024-2026",
+        "title": "Innovation Era",
+        "description": "Exploration des technologies émergentes et sécurité post-quantique",
+        "projects": [
+          {
+            "name": "rssgenerator",
+            "description": "Full-stack RSS platform with OWASP security",
+            "tech": ["Node.js", "React", "OWASP", "MongoDB"],
+            "highlight": true
+          },
+          {
+            "name": "vocalEncryptPQ",
+            "description": "POST-QUANTUM voice encryption system",
+            "tech": ["JavaScript", "Web Audio API", "Kyber-768", "Dilithium"],
+            "highlight": true
+          },
+          {
+            "name": "sentiment-model",
+            "description": "NLP sentiment analysis with TensorFlow.js",
+            "tech": ["TensorFlow.js", "TypeScript", "NLP"]
+          },
+          {
+            "name": "signalAndroid",
+            "description": "Kotlin Android app with Material Design 3",
+            "tech": ["Kotlin", "Material Design 3", "Android"]
+          },
+          {
+            "name": "immersive_experience",
+            "description": "WebGL/Three.js immersive 3D experience",
+            "tech": ["Three.js", "WebGL", "GSAP", "React", "Rapier Physics"],
+            "highlight": true
+          }
+        ]
+      },
+      {
+        "years": "2022-2024",
+        "title": "Enterprise Phase",
+        "description": "Applications d'entreprise et solutions sécurisées",
+        "projects": [
+          {
+            "name": "DeepLinkAudit",
+            "description": "Enterprise SEO crawler & analyzer",
+            "tech": ["Node.js", "Puppeteer", "React"],
+            "highlight": true
+          },
+          {
+            "name": "privatechat",
+            "description": "E2E encrypted messaging (Signal-like)",
+            "tech": ["WebSocket", "AES-256", "ECDH", "Node.js"],
+            "highlight": true
+          },
+          {
+            "name": "custom-netflix",
+            "description": "Netflix clone with TMDB API",
+            "tech": ["React", "TMDB API", "Node.js"]
+          },
+          {
+            "name": "Social-network",
+            "description": "Full MERN stack social platform",
+            "tech": ["MongoDB", "Express", "React", "Node.js"]
+          },
+          {
+            "name": "myShopBooking",
+            "description": "E-commerce booking system with Stripe",
+            "tech": ["Stripe", "Node.js", "React", "MongoDB"]
+          }
+        ]
+      },
+      {
+        "years": "2020-2022",
+        "title": "Growth Stage",
+        "description": "Consolidation des compétences full-stack",
+        "projects": [
+          {
+            "name": "perfectlinks-v2",
+            "description": "URL shortener & analytics platform",
+            "tech": ["Node.js", "MongoDB", "React"]
+          },
+          {
+            "name": "jwt-auth",
+            "description": "Production-ready JWT authentication",
+            "tech": ["JWT", "Node.js", "Express"]
+          },
+          {
+            "name": "guitarTuner",
+            "description": "Web Audio API pitch detection",
+            "tech": ["Web Audio API", "FFT", "TypeScript"]
+          },
+          {
+            "name": "ImageWhisper",
+            "description": "AI-powered image analysis tool",
+            "tech": ["OpenAI Vision", "React", "TypeScript"]
+          }
+        ]
+      },
+      {
+        "years": "2018-2020",
+        "title": "Foundation",
+        "description": "Débuts et exploration créative",
+        "projects": [
+          {
+            "name": "toolsWP",
+            "description": "WordPress developer toolkit",
+            "tech": ["PHP", "WordPress", "JavaScript"],
+            "stars": 3
+          },
+          {
+            "name": "spaceInvaders",
+            "description": "Canvas game development",
+            "tech": ["Canvas", "JavaScript"]
+          },
+          {
+            "name": "rubixcube",
+            "description": "Interactive 3D Rubik's cube",
+            "tech": ["Three.js", "Quaternions"]
+          },
+          {
+            "name": "keyPairGenerator",
+            "description": "Cryptographic key generation tool",
+            "tech": ["Web Crypto API", "JavaScript"]
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "featured": [
+      {
+        "name": "Odyssée Cosmique",
+        "description": "Immersive 3D web experience with 11 cosmic universes, physics simulation, and procedural audio",
+        "longDescription": "An advanced Three.js project showcasing InstancedMesh optimization, custom GLSL shaders, Rapier physics, and procedural audio synthesis. Features 5 quality presets and auto-adaptive performance.",
+        "image": "odyssee.png",
+        "tech": ["Three.js", "React", "WebGL", "GSAP", "Rapier Physics", "Web Audio API"],
+        "github": "https://github.com/artkabis/immersive_experience",
+        "demo": "https://artkabis.github.io/immersive_experience/",
+        "highlight": true,
+        "year": 2025
+      },
+      {
+        "name": "PrivateChat",
+        "description": "End-to-end encrypted messaging platform with forward secrecy",
+        "longDescription": "Signal-like messaging app using AES-256-GCM encryption with ECDH key exchange. Zero-knowledge architecture where even the server cannot read messages.",
+        "image": "privatechat.png",
+        "tech": ["Node.js", "WebSocket", "AES-256", "ECDH", "Web Crypto API"],
+        "github": "https://github.com/artkabis/privatechat",
+        "highlight": true,
+        "year": 2023
+      },
+      {
+        "name": "VocalEncrypt PQ",
+        "description": "Post-quantum voice encryption for the quantum computing era",
+        "longDescription": "Voice encryption using NIST-approved post-quantum algorithms (Kyber-768 for key exchange, Dilithium for signatures). Ready for when RSA breaks.",
+        "image": "vocalencrypt.png",
+        "tech": ["JavaScript", "Web Audio API", "Kyber-768", "Dilithium", "NIST PQC"],
+        "github": "https://github.com/artkabis/vocalEncryptPostQuantic",
+        "highlight": true,
+        "year": 2024
+      },
+      {
+        "name": "DeepLinkAudit",
+        "description": "Enterprise SEO crawler and website structure analyzer",
+        "longDescription": "Automated website crawler that detects broken links, generates visual sitemaps, and exports comprehensive SEO reports in multiple formats.",
+        "image": "deeplinkaudit.png",
+        "tech": ["Node.js", "Puppeteer", "React", "D3.js"],
+        "github": "https://github.com/artkabis/DeepLinkAudit",
+        "year": 2023
+      },
+      {
+        "name": "Sentiment Analyzer",
+        "description": "Real-time NLP model for sentiment analysis",
+        "longDescription": "TensorFlow.js-based neural network trained on product reviews. Achieves 94.7% accuracy on sentiment classification.",
+        "image": "sentiment.png",
+        "tech": ["TensorFlow.js", "TypeScript", "NLP", "React"],
+        "github": "https://github.com/artkabis/sentiment-analyser-model",
+        "year": 2024
+      },
+      {
+        "name": "Rubix Cube 3D",
+        "description": "Interactive 3D Rubik's cube with realistic physics",
+        "longDescription": "Fully functional Rubik's cube using Three.js and quaternion mathematics for smooth rotations. Includes scramble and solve animations.",
+        "image": "rubixcube.png",
+        "tech": ["Three.js", "Quaternions", "JavaScript"],
+        "github": "https://github.com/artkabis/rubixcube",
+        "demo": "https://artkabis.github.io/rubixcube/",
+        "year": 2019
+      }
+    ]
+  },
+  "achievements": {
+    "trophies": [
+      {
+        "id": "arctic-vault",
+        "name": "Arctic Code Vault Contributor",
+        "description": "Code preserved for 1000 years in the Arctic",
+        "icon": "vault",
+        "rarity": "legendary",
+        "year": 2020
+      },
+      {
+        "id": "pull-shark",
+        "name": "Pull Shark x2",
+        "description": "Prolific pull request contributor",
+        "icon": "shark",
+        "rarity": "epic",
+        "year": 2023
+      },
+      {
+        "id": "quickdraw",
+        "name": "Quickdraw",
+        "description": "Fast first responder to issues",
+        "icon": "bolt",
+        "rarity": "rare",
+        "year": 2022
+      },
+      {
+        "id": "repo-hoarder",
+        "name": "Repository Hoarder",
+        "description": "84+ public repositories created",
+        "icon": "repos",
+        "rarity": "epic",
+        "count": 84
+      },
+      {
+        "id": "crypto-master",
+        "name": "Crypto Master",
+        "description": "Implemented post-quantum cryptography",
+        "icon": "lock",
+        "rarity": "legendary",
+        "year": 2024
+      },
+      {
+        "id": "pixel-perfect",
+        "name": "Pixel Perfect",
+        "description": "UI/UX design excellence",
+        "icon": "art",
+        "rarity": "rare"
+      },
+      {
+        "id": "owasp-guardian",
+        "name": "OWASP Guardian",
+        "description": "Security expert - OWASP Top 10 specialist",
+        "icon": "shield",
+        "rarity": "epic"
+      },
+      {
+        "id": "game-dev",
+        "name": "Game Dev Dabbler",
+        "description": "Game development for fun",
+        "icon": "gamepad",
+        "rarity": "rare"
+      },
+      {
+        "id": "ai-whisperer",
+        "name": "AI Whisperer",
+        "description": "ML/AI model training and implementation",
+        "icon": "brain",
+        "rarity": "epic",
+        "year": 2024
+      },
+      {
+        "id": "coffee-overflow",
+        "name": "Coffee Overflow",
+        "description": "10+ years of caffeinated coding",
+        "icon": "coffee",
+        "rarity": "legendary",
+        "since": 2014
+      }
+    ]
+  },
+  "contact": {
+    "status": "AVAILABLE FOR HIRE",
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/artkabis",
+        "icon": "github",
+        "username": "artkabis"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/artkabis",
+        "icon": "linkedin",
+        "username": "artkabis"
+      },
+      {
+        "name": "Portfolio",
+        "url": "https://perfectlinks.artkabis.fr",
+        "icon": "globe"
+      },
+      {
+        "name": "CodePen",
+        "url": "https://codepen.io/artkabis",
+        "icon": "codepen",
+        "username": "artkabis"
+      },
+      {
+        "name": "Dev.to",
+        "url": "https://dev.to/artkabis",
+        "icon": "dev",
+        "username": "artkabis"
+      }
+    ],
+    "workModes": ["Remote", "Hybrid", "On-site (France)"],
+    "contractTypes": ["CDI", "Freelance", "Contract"],
+    "roles": ["Tech Lead", "Senior Developer", "Full-Stack Developer", "Project Manager"],
+    "languages": ["French (Native)", "English (Professional)"]
+  },
+  "easterEggs": {
+    "konami": {
+      "code": ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "KeyB", "KeyA"],
+      "effect": "matrix",
+      "message": "You found the secret! Welcome to the Matrix."
+    },
+    "hire": {
+      "trigger": "hire",
+      "effect": "confetti",
+      "message": "That's the spirit! Let's talk!"
+    },
+    "sudo": {
+      "trigger": "sudo",
+      "effect": "admin",
+      "message": "Access granted. Welcome, root."
+    },
+    "coffee": {
+      "trigger": "coffee",
+      "effect": "energize",
+      "message": "Coffee.exe loaded. Energy +100%"
+    },
+    "logoClick": {
+      "clicks": 10,
+      "effect": "neon",
+      "message": "Entering the Grid..."
+    },
+    "shake": {
+      "threshold": 500,
+      "effect": "glitch",
+      "message": "Whoa, easy there!"
+    },
+    "idle": {
+      "timeout": 30000,
+      "effect": "wave",
+      "message": "Still exploring? Take your time!"
+    },
+    "allAchievements": {
+      "effect": "fireworks",
+      "message": "Completionist - 100% Discovered!"
+    }
+  },
+  "sections": [
+    {
+      "id": "boot",
+      "name": "INITIALIZING",
+      "color": "#00ff00",
+      "symbol": ">_",
+      "title": "System Boot",
+      "description": "Loading developer profile...",
+      "type": "intro",
+      "duration": 4000,
+      "skipable": true
+    },
+    {
+      "id": "identity",
+      "name": "IDENTITY CORE",
+      "color": "#00ffc8",
+      "symbol": "@",
+      "title": "Profile",
+      "description": "Full-Stack Engineer & Tech Lead",
+      "type": "profile"
+    },
+    {
+      "id": "skills",
+      "name": "SKILL MATRIX",
+      "color": "#8a2be2",
+      "symbol": "{}",
+      "title": "Technical Arsenal",
+      "description": "A constellation of technologies mastered over a decade",
+      "type": "skills"
+    },
+    {
+      "id": "experience",
+      "name": "TIME WARP",
+      "color": "#ff00ff",
+      "symbol": ">>",
+      "title": "Career Journey",
+      "description": "Professional evolution through software development",
+      "type": "experience"
+    },
+    {
+      "id": "projects",
+      "name": "PROJECT GALLERY",
+      "color": "#00c8ff",
+      "symbol": "</>",
+      "title": "Featured Creations",
+      "description": "Interactive showcases of key projects",
+      "type": "projects"
+    },
+    {
+      "id": "achievements",
+      "name": "TROPHY VAULT",
+      "color": "#ffd700",
+      "symbol": "*",
+      "title": "Achievements Unlocked",
+      "description": "Milestones and recognitions",
+      "type": "achievements"
+    },
+    {
+      "id": "lab",
+      "name": "CODE LAB",
+      "color": "#ff0080",
+      "symbol": "~/",
+      "title": "Interactive Playground",
+      "description": "Explore demos and discover Easter eggs",
+      "type": "lab"
+    },
+    {
+      "id": "contact",
+      "name": "CONTACT NEXUS",
+      "color": "#00ff7f",
+      "symbol": "@>",
+      "title": "Establish Connection",
+      "description": "Ready to collaborate?",
+      "type": "contact"
+    }
+  ]
+}
