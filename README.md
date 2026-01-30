@@ -101,49 +101,49 @@ const developer = {
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐
-│                            ⚔️ WEAPONS (Languages) ⚔️                             │
+│                              WEAPONS (Languages)                                │
 ├─────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                 │
-│   ████████████████████████████████████████  JavaScript    ★★★★★  LEGENDARY     │
-│   ████████████████████████████████████████  TypeScript    ★★★★★  LEGENDARY     │
-│   ██████████████████████████████░░░░░░░░░░  Python        ★★★★☆  EPIC          │
-│   ████████████████████░░░░░░░░░░░░░░░░░░░░  Kotlin        ★★★☆☆  RARE          │
-│   ████████████████████████████████████████  HTML/CSS      ★★★★★  LEGENDARY     │
+│   ████████████████████████████████████████  JavaScript    *****  LEGENDARY     │
+│   ████████████████████████████████████████  TypeScript    *****  LEGENDARY     │
+│   ██████████████████████████████░░░░░░░░░░  Python        ****   EPIC          │
+│   ████████████████████░░░░░░░░░░░░░░░░░░░░  Kotlin        ***    RARE          │
+│   ████████████████████████████████████████  HTML/CSS      *****  LEGENDARY     │
 │                                                                                 │
 └─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐
-│                            🛡️ ARMOR (Frameworks) 🛡️                              │
+│                              ARMOR (Frameworks)                                 │
 ├─────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                 │
-│   [LEGENDARY]  React.js       → +100% Component Power      ⚛️                   │
-│   [LEGENDARY]  Node.js        → +100% Server Strength      💚                   │
-│   [EPIC]       Vue.js         → +80% Reactivity            🟢                   │
-│   [EPIC]       Next.js        → +90% SSR Magic             ▲                    │
-│   [EPIC]       Angular        → +85% Enterprise Power      🅰️                   │
-│   [RARE]       Three.js       → +70% 3D Vision             🎮                   │
-│   [EPIC]       Express        → +85% API Speed             🚂                   │
-│   [EPIC]       Tailwind       → +90% Style Points          🎨                   │
+│   LEGENDARY   React.js     +100% Component Power                                │
+│   LEGENDARY   Node.js      +100% Server Strength                                │
+│   EPIC        Vue.js       +80% Reactivity                                      │
+│   EPIC        Next.js      +90% SSR Magic                                       │
+│   EPIC        Angular      +85% Enterprise Power                                │
+│   RARE        Three.js     +70% 3D Vision                                       │
+│   EPIC        Express      +85% API Speed                                       │
+│   EPIC        Tailwind     +90% Style Points                                    │
 │                                                                                 │
 └─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐
-│                          💎 ARTIFACTS (Tools & DBs) 💎                          │
+│                            ARTIFACTS (Tools & DBs)                              │
 ├─────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                 │
 │   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐       │
 │   │   MongoDB    │  │   Firebase   │  │    Docker    │  │    Git       │       │
-│   │   🍃 EPIC    │  │   🔥 EPIC    │  │   🐳 EPIC    │  │   📦 LEGEND  │       │
+│   │   EPIC       │  │   EPIC       │  │   EPIC       │  │   LEGEND     │       │
 │   │   NoSQL DB   │  │   Realtime   │  │   Container  │  │   Version    │       │
 │   └──────────────┘  └──────────────┘  └──────────────┘  └──────────────┘       │
 │                                                                                 │
 │   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐       │
 │   │   GraphQL    │  │   Redis      │  │   Webpack    │  │   Vite       │       │
-│   │   🔮 EPIC    │  │   ⚡ RARE    │  │   📦 EPIC    │  │   ⚡ LEGEND  │       │
+│   │   EPIC       │  │   RARE       │  │   EPIC       │  │   LEGEND     │       │
 │   │   Query Lang │  │   Cache      │  │   Bundler    │  │   Build Tool │       │
 │   └──────────────┘  └──────────────┘  └──────────────┘  └──────────────┘       │
 │                                                                                 │
